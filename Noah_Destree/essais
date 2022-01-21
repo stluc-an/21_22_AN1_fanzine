@@ -1,0 +1,74 @@
+essais 
+
+ -webkit-animation: 7s linear 0s infinite alternate move_eye;
+          animation: 7s linear 0s infinite alternate move_eye;
+
+    
+    @-webkit-keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+        @keyframes move_eye { from { margin-left:-20%; } to { margin-left:100%; }  }
+    
+    
+    rgb(172,155,244)
+rgb (181,207,235)
+rgb(1,63,208)
+rgb(4,47,157)
+rgb(118,53,206)
+rgb (108,83,212)
+rgb(27,57,149)
+rgb(152,14,191)
+rgb (39,52,75)
+
+<h12> 
+
+             <p id="pop"> <a href="javascript:;"
+       onclick=" window.open(
+            'popup2.1.2.1.html',
+             'popup1.3',
+             'left=450,top=850,width=650,height=305');return false;" > 2.1.2.1 </a>
+                 
+            <p/> 
+
+        </h12>
+        
+        <img src="image1.gif" style="position:absolute;z-index:4;" />
+<img src="images2.gif" style="position:absolute;z-index:2" />
+
+
+
+#pop{
+    opacity: 0;
+transition: opacity 1s;
+        
+}
+#pop:hover{
+    opacity: 1.0;
+    
+}
+
+.flotte{ 
+
+    float: right; 
+}
+
+body{ 
+     font-family: "Leo hates school";
+    text-align: center; 
+      background-color: rgb(241,238,226);
+  
+    
+}
+
+h2{
+    font-size: 40px ; 
+}
+
+a:link {
+   background-color: transparent; 
+        color: rgb(1,63,208);
+        text-decoration: none
+}
+
+a:active{  
+
+    color : rgb(252,10,238); 
+}

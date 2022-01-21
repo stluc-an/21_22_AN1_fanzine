@@ -1,0 +1,62 @@
+
+#pop{
+    opacity: 0;
+transition: opacity 1s;
+        
+}
+#pop:hover{
+    opacity: 1.0;
+}
+
+body{
+
+    font-family: "Leo hates school" ; 
+    background-color: rgb(241,238,226);
+  
+     
+}
+
+p{
+    text-align: center}
+
+h1 {
+    
+    font-size: 54px; 
+        color:black; 
+    text-align: center; 
+      ;  
+
+}
+
+
+h2 {
+     
+        font-size: 32px; 
+    text-align: center; 
+} 
+
+h3 { 
+
+    text-align: center;
+    font-size: 32px; 
+    color: black;
+}
+
+}
+
+h6 {
+    
+    text-align-last: center; 
+ 
+}
+
+ a:link {
+     
+        background-color: transparent; 
+        color: black;
+        text-decoration: none;
+}
+
+ a:active{  
+
+    color : rgb(252,10,238);} 

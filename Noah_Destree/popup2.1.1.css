@@ -1,0 +1,33 @@
+#pop{
+    opacity: 0;
+transition: opacity 1s;
+        
+}
+#pop:hover{
+    opacity: 1.0;
+    
+}
+
+
+body{ 
+ 
+    text-align: center; 
+       background-color: rgb(241,238,226);
+    font-family: "Leo hates school" ; 
+
+     background-image: url(religieux.png);
+
+} 
+
+a:link {
+   background-color: transparent; 
+        color: rgb(1,63,208);
+        text-decoration: none
+}
+
+a:active{  
+
+    color : rgb(252,10,238); 
+}
+
+
