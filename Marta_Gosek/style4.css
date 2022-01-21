@@ -1,0 +1,99 @@
+h1 {
+    font-weight: normal;
+    width: 100%;
+    font-size: 2em;
+    margin: auto;
+    color: green;
+    text-align: center;
+        }
+ h2 {
+    font-weight: normal;
+    width: 100%;
+    font-size: 2em;
+    margin: 1em;
+    text-align: left ;
+    color: green;
+ } 
+ h3 {
+   font-weight: normal;
+    width: 100%;
+    margin: -1em;
+    font-size: 2em;
+    text-align: right;
+    color: green;
+ }
+
+}*/
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body{
+  background-image: url(Panorama9.jpg);
+  height: 100%;
+  background-size: cover;
+  margin: 0;
+  background-position-x: 35%;
+}
+
+.hide{
+  display: none;
+}
+
+//* @font-face{
+  font-family: "Georgia";
+  font-weight:"normal";
+  src: url("Fonts/Georgia/Georgia.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Georgia";
+    font-weight:"normal";
+    font-style: italic;
+    src: url("Fonts/Georgia/Georgia Italic.tff") format("truetype");
+}
+
+@font-face{
+    font-family: "Georgia";
+    font-weight:"800";
+    font-style: bold;
+    src: url("Fonts/Georgia/Georgia Bold.ttf") format("truetype"); *//
+}
+font-face{
+  font-family: "Engraved";
+  font-weight:"normal";
+  src: url("Fonts/Academy Engraved LET Fonts/Academy Engraved LET Fonts.ttf") format("truetype");
+}
+
+html {
+    font-family:"Engraved", sans-serif;
+}
+h1{
+    font-style: normal;
+}
+<style> 
+a:link {
+  color: green; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: darkgreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style> 

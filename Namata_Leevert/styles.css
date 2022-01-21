@@ -1,0 +1,28 @@
+@font-face {
+    src: url(PressStart2P-Regular.ttf);
+    font-family: pixel;
+}
+
+body {
+ font-family: pixel;
+    color: #7A4B3B;
+ }
+
+h1 {
+    font-size: 40px;
+}
+
+a {
+    font-size: 15px;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+    
+}

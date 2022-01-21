@@ -1,0 +1,124 @@
+body{
+   background: #bbf7ff; 
+    color : cadetblue;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em 0 0;
+}
+
+h1 {
+    font-weight: 1000;
+    font-size: 5em ;
+    border: 10px solid #000;
+    border-color: cadetblue;
+    width: 500px;
+    margin: auto auto
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0);  
+  background-color: rgba(0,0,0, 0.5); 
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+.parallax-effect {
+    background-image: url("photos/1.webp"); /** source : hypérion-architecture-future-verte-16.jpg**/
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.parallax-effect:nth-child(2){
+    background-image: url("photos/2.webp"); /** source: Villes-futures2_430.jpg **/
+}
+
+.parallax-effect:nth-child(3){
+    background-image: url("photos/3.jpg"); /**source : Nautilus-Eco-Resort-in-Philippines-14.jpg**/
+}
+
+.parallax-effect:nth-child(4){
+    background-image: url("photos/4.jpg"); /** source : 1-redimensionne-2.jpg  **/
+}
+
+.parallax-effect:nth-child(5){
+     background-image: url("photos/5.jpg"); /** source : - .._photos_paris-futur-2050-7.jpg  **/
+}
+    
+.parallax-effect:nth-child(6){
+    background-image: url("photos/6.jpg"); /** source : hydrogenase_pl000.jpg **/
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+ul.css3rotate {
+    overflow: hidden;
+    background: #0c5815;
+    margin: 0;
+    padding: 30px 18px;
+}
+ 
+ul.css3rotate li {
+    float: left;
+    margin: 0 10px;
+    padding:5px;
+    border: 1px solid #444;
+    list-style: none;
+    background: #fff;
+}
+ 
+ul.css3rotate li a img  {
+    float: inherit;
+    width: 140px;
+    height: 150px;
+    margin: 0;
+    -moz-transition: -moz-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
+ 
+ul.css3rotate li a:hover img {
+    -webkit-transform: scale(1.4) rotate(-10deg);
+    -moz-transform: scale(1.4) rotate(-10deg);
+    -o-transform: scale(1.4) rotate(-10deg);
+    transform: scale(1.4) rotate(-10deg);
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+    

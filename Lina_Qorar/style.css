@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    cursor: url(épée.png), default;
+    text-align: center;
+}
+
+
+.boite:not(.disactive):hover{
+    box-shadow: 0 0 10px black;
+
+}
+
+
+
+.boite{
+    font-size: 2em;
+    border-radius: 20px;
+    background-color: transparent;
+    width:40vw;
+    padding:1em;
+    /**/
+     transition: all 400ms;
+}
+
+
+.boite p{
+    opacity: 0;
+}
+ body{
+
+      background:linear-gradient(0deg, rgba(209,155,142,1) 4%, rgba(181,90,57,1) 45%, rgba(51,30,25,1) 95%);
+ }
+    div{
+
+    width: 30%;
+    margin: 50px auto;  
+
+    }

@@ -1,0 +1,468 @@
+ *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'kumbh Sans', sans-serif; 
+}
+
+.navbar {
+    background: #131313;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2.5rem; 
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+.navbar__links:hover {
+    color: #f77062;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 960px) {
+    .navbar__container {
+        display: flex;
+        justify-content: space-between;
+        height: 80px;
+        z-index: 1;
+        width: 100%;
+        max-width: 1300px;
+        padding: 0;
+    }
+    
+    #navbar__logo {
+        padding-left: 25px;
+    }  
+     
+}
+
+/* Hero Section css */
+.main {
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    height: vh;
+}
+
+h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+h3{
+    color: #fff;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.main1 {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: vh;
+}
+
+.main1 h4 {
+    background-color: #fff;
+    background-size: 100%;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main1 h5 {
+    background-color: #fff;
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+} 
+
+
+.main {
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    height: 150vh;
+ 
+}
+
+#menuchampi{
+    position:relative;
+    width:86vw;
+    height:61vw;
+    margin:10 auto;
+    background-image:url(images/Illu%20fanzine.jpg);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi1{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Amanita-Muscaria-1.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi2{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Panaeolus-cinctulus-1.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi3{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Psilocybe-Semilanceata-1.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi4{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/psilocybe-mexicana-1.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi5{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Psilocybe-Cubensis-1.gif);
+    background-size: contain;
+    background-position: center center;
+}
+#menuchampi6{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Psilocybe-caerulescens-2.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi7{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Gymnopilus-junonius-3.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi8{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Mycena-Pura.gif);
+    background-size: contain;
+    background-position: -50 center;
+}
+
+#menuchampi9{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Psilocybe-Cyanescens-2.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi10{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Psilocybe-Allenii.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi11{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Psilocybe-Weraroa.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi12{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Psilocybe-Subaeruginosa.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi13{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Psilocybe-Makarorae.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi14{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Psilocybe-azurescens.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi15{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Psilocybe-Ovoideocystidiata.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi16{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Psilocybe-Subaeruginescens.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi17{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Panaeolus-Tropicalis.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi18{
+    position:relative;
+    width:90vw;
+    height:60vw;
+    margin:0 auto;
+    background-image:url(images/Panaeolus-Combodginiensis.gif);
+    background-size: contain;
+    background-position: center center;
+}
+
+#menuchampi #champi-anim1{
+    position: absolute;
+    width:15%;
+    top:34%;
+    right:20%;
+}
+
+
+#menuchampi #champi-anim2{
+    position: absolute;
+    width:15%;
+    top:30%;
+    left:19%;
+}
+
+#menuchampi #champi-anim3{
+    position: absolute;
+    width:15%;
+    top:43%;
+    left:13%;
+}
+
+#menuchampi #champi-anim4{
+    position: absolute;
+    width:15%;
+    top:22%;
+    left:28%;
+}
+
+#menuchampi #champi-anim5{
+    position: absolute;
+    width:15%;
+    top:50%;
+    left:66%;
+}
+
+#menuchampi #champi-anim6{
+    position: absolute;
+    width:15%;
+    top:57%;
+    left:14%;
+}
+
+#menuchampi #champi-anim7{
+    position: absolute;
+    width:15%;
+    top:25%;
+    left:55%;
+}
+
+#menuchampi #champi-anim8{
+    position: absolute;
+    width:15%;
+    top:53%;
+    left:45%;
+}
+
+#menuchampi #champi-anim9{
+    position: absolute;
+    width:15%;
+    top:69%;
+    left:34%;
+}
+
+#menuchampi #champi-anim10{
+    position: absolute;
+    width:15%;
+    top:22%;
+    left:40%;
+}
+
+#menuchampi #champi-anim11{
+    position: absolute;
+    width:10%;
+    top:48%;
+    left:28%;
+}
+
+#menuchampi #champi-anim12{
+    position: absolute;
+    width:15%;
+    top:54%;
+    left:34%;
+}
+
+#menuchampi #champi-anim13{
+    position: absolute;
+    width:15%;
+    top:34%;
+    left:43%;
+}
+
+#menuchampi #champi-anim14{
+    position: absolute;
+    width:15%;
+    top:43%;
+    left:52%;
+}
+
+#menuchampi #champi-anim15{
+    position: absolute;
+    width:15%;
+    top:62%;
+    left:62%;
+}
+
+#menuchampi #champi-anim16{
+    position: absolute;
+    width:15%;
+    top:68%;
+    left: 48%;
+}
+
+#menuchampi #champi-anim17{
+    position: absolute;
+    width:15%;
+    top:64%;
+    left: 24%;
+}
+
+#menuchampi #champi-anim18{
+    position: absolute;
+    width:15%;
+    top:38%;
+    left: 33%;
+}
+
+#menuchampi .champi-anim img{
+    width:100%;
+}

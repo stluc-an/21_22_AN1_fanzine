@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(242,165,235);
+    color : #9d5fa0;
+}
+
+h1 {
+    font
+    width: 500px;
+    margin: auto auto;
+    text-align: center;
+   padding-top: 50px; 
+    border: 5px solid #000;
+    border-color: #9d5fa0;
+    border-style:double;
+    border-spacing: inherit;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: (3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+    
+}
+.box1 {
+  grid-column-start:5;
+  grid-column-end: 3; 
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.box2 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3
+}
+
+.parallax-effect {
+    background-image: url("../dieuNixus/IMG_3451-min-min.jpg");
+    min-height: 600px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.parallax-effect:nth-child(2){
+    background-image: url("../dieuNixus/IMG_3452-min-min.jpg");
+}
+
+.parallax-effect:nth-child(3){
+    background-image: url("../dieuNixus/IMG_3453-min-min.jpg");
+}
+
+.parallax-effect:nth-child(4){
+    background-image: url("../dieuNixus/IMG_3454-min-min.jpg");
+}
+
+.parallax-effect:nth-child(5){
+     background-image: url("../dieuNixus/IMG_3455-min-min.jpg");
+}
+    
+.parallax-effect:nth-child(6){
+    background-image: url("../dieuNixus/IMG_3456-min-min.jpg");
+}

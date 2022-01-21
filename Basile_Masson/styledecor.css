@@ -1,0 +1,19 @@
+#decor{
+    position:relative
+    
+}
+
+
+#test{
+    width:inherit;
+    position:relative;
+}
+
+#conteneur{
+    position:absolute
+}
+
+
+img{
+    cursor:grab
+}

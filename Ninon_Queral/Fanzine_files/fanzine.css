@@ -1,0 +1,47 @@
+html{
+    cursor: url(cursorha.png), default;
+    
+    min-height: 100%;
+}
+
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height:500vh;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+
+.parallax__layer img {
+    position: absolute;
+    
+    height: 200px;/*pas nécessaire si tes images sont déjà à la bonne taille*/
+  }
+
+#cat1{
+    transform: translate(10%, 0%);
+}
+
+#cat2{
+    transform: translate(15%, 12%);
+}

@@ -1,0 +1,179 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family:  monospace;
+}
+
+
+body {
+        background-color:   #313131  ;
+
+}
+
+a{
+    cursor: default;
+    color:black;
+    text-decoration: none;
+}
+
+h1 div{
+    font-size: 132px;
+    overflow: hidden;
+
+}
+
+
+
+        h1 div:nth-child(1){
+            transform: translate(25px, 50px);
+             
+                            }
+        h1 div:nth-child(1) span{
+            transform: translate(-25px, -50px);
+                display: block;
+            
+                            }
+
+
+
+
+        h1 div:nth-child(2){
+            transform: translate(50px, -10px);
+            
+                            }                              
+
+        h1 div:nth-child(2) span{
+            transform: translate(-50px, 10px);
+                display: block;
+    
+                            }
+
+
+
+
+
+        h1 div:nth-child(3){
+            transform: translate(50px, -10px);
+            
+                            }       
+
+        h1 div:nth-child(3) span{
+            transform: translate(-50px, 10px);
+            display: block;
+            
+                            }
+
+
+
+
+canvas{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+}
+
+
+
+
+
+h1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "G . ."
+    "G bouton ."
+    "G . D"; 
+}
+.G { grid-area: G;
+    margin: 10px;
+}
+
+
+
+.D { grid-area: D; 
+    margin: 10px;
+}
+
+
+.boutton{
+    
+font-size: 132px;
+
+grid-area: bouton;
+    opacity: 0;
+margin: 10px;
+}
+
+
+.t1{
+    color:azure;
+}
+
+
+.t2{
+color:azure;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,178 @@
+/*NAVIGATION*/
+nav.menu-nav ul li.btn{
+    display: inline-block;
+    list-style-type: none;
+    padding-top: 20px;
+    margin:auto;
+    align-content: center;
+    
+    
+} 
+
+nav.menu-nav ul li.btn a{
+    color:white;
+    background-color:#d9d36d;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+    border-radius: 200px;
+}
+
+nav.menu-nav ul li.btn:hover a{
+    color: darkgrey;
+    background-color:#FCEF72;
+    transition: 0.5s all;
+}
+
+body{
+   background: rgb(11,49,126);
+    background: linear-gradient(90deg, rgba(11,49,126,1) 35%, rgba(10,168,210,1) 100%); 
+      color:white;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.p2{
+    color:white;
+    font-family: 'Luxurious Roman', cursive;
+}
+.lesanciens{
+    padding-bottom: 100px;
+}
+/*body{
+     background: url(Sans%20titre-1.jpg) no-repeat;
+     background-size: 100%; 
+}
+/* tu peux utiliser "backgoung-color" de plusieur maniere. Tu peux le faire sois: - en mettant la couleur comme le premier;
+                    - en mettant "rgb" et les 3 codes de couleur;
+                    - en mettant le "#" et le code que tu peut trouver sur photoshop.
+            alt gr pour trouver d'autre truc comme le "#"*/
+/*PIED DE PAGE*/
+footer{
+    color: white;
+    background-color: #d9d36d;
+    padding: -0.1em;
+}
+
+div#next  div.leftbox{
+    
+}
+
+div#next div.rightbox{
+    
+}
+div#next div.middlebox{
+    font-size: 5px
+}
+
+div#next div{
+/*
+    display: inline-block;
+    width: 50%;
+*/
+     
+}
+#next{
+    display: grid;
+/*    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));*/
+    grid-gap: 20px;
+    align-items: stretch;
+    display: flex; 
+    justify-content: space-between
+}
+/*h1{
+    color: darkturquoise;
+    font-family:serif;
+    font-weight:lighter;
+    
+    width: 50vh;
+    font-size: 70px;
+    margin: auto;
+    text-align: center
+    
+    
+}*/
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background: rgb(19,78,196);
+    background: linear-gradient(90deg, rgba(19,78,196,1) 3%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 55%, rgba(210,10,44,1) 100%);
+    border-radius: 50px;
+    box-shadow: rgba(255,255,255,1) 0px 50px 100px -20px, rgba(255,255,255,1) 0px 30px 60px -30px, rgba(255,255,255,1) 0px -2px 6px 0px inset;
+}
+.vieux{
+    display: flex;
+    align-content: center;
+    margin: auto;
+}
+.Magazine{
+    height: 400px;
+}
+
+.bestseller{
+    height: 400px;
+   
+}
+.ps5{
+    height: 350px;
+    align-content: center;
+}
+
+.ps5,.Magazine,.bestseller{
+    transition: transform .2s; /* Animation */
+    
+}
+.ps5:hover{
+     transform: scale(1.5);
+}
+
+.Magazine:hover{
+    transform: scale(1.5);
+}
+.bestseller:hover{
+    transform: scale(1.5);
+}
+p{
+   font-size: 22px;
+     
+}
+a{
+    color:red;
+    text-decoration: none; 
+}
+
+.liltop{
+    display: block;
+    margin: auto;
+    padding-top: 130px;
+    align-content: center;
+}
+/*CAROUSEL*/
+.test{
+    padding-top: 100px;
+   width: 1200px;
+    margin: auto;
+}
+
+.carousel img {
+    margin: auto;
+}
+
+/* RESPONSITE*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/*font-weight c'est pour rendre ton titre brillant ou autre
+  font-family c'est la police'
+  border c'est le fait de créer une bordure avec la taille du px (pixels)
+  width c'est la taille de la bordure
+CTRL+S= ENREGISTRER !!
+  VW= largeur et VH= hauteur
+  font-size c'est la taile du texte'(em=16pixels)
+  margin c'est la marge, genre centrer le titrer et tout ta capter et pour mettre la taille de la marge sans virgule(max 4, exemple "8px")'
+  text-align cest alligner le texte dans la bordure ou meme sans bordure*/

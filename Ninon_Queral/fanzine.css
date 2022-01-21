@@ -1,0 +1,228 @@
+html{
+    cursor: url(cursorha.png), default;
+    
+    min-height: 100%;
+}
+
+body{
+    /* sur le body, on doit enlever les marges par défaut */
+    margin:0;
+    padding:0;
+    
+    overflow:hidden;
+        
+
+}
+
+/* le bloc qui va contenir la parallaxe */
+#parallax-container{
+  perspective: 3px;
+  height: 100vh;/* la taille de la fenêtre */
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* le, plus grand que parallax-container, qui va permettrede scroller */
+#parallax-scroll{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:500vh;/* hauteur de 5x la hauteur de la viewport */
+  transform-style: preserve-3d;
+}
+
+/* les différents éléments placés dans l'espace 3D 
+- toujours positionnés en absolu
+- translate 3D permet de les situer dans l'espace x,y,z
+- c'est la position z qui "fait" la parallaxe
+- pour que ça soit cohérent, les éléments éloignés doivent aussi être derrière les éléments proches. Le plus simple est de mettre la même valeur pour la distance en Z en pixel, et pour le Z-INDEX
+- scale() permet de changer la taille d'un élément
+*/
+
+#fond{    
+    position: absolute;
+    transform: translate3D(0vh,0vw,-20px) scale(40);
+    z-index:-20;
+}
+
+#cat1{
+    position: absolute;
+    transform: translate3D(30vw,65vh,1px) scale(4);
+    z-index:-2;
+}
+
+#cat2{
+    position: absolute;
+    transform: translate3D(40vw,150vh,-1px) scale(2);
+    z-index:-1;
+}
+
+#cat3{
+    position: absolute;
+    transform: translate3D(100vw,15vh,-4px) scale(3);
+}
+
+
+
+#cat4{
+    position: absolute;
+    transform: translate3D(-5vw,220vh,-2px) scale(5);
+    z-index:-1;
+}
+
+#cat5{
+    position: absolute;
+    transform: translate3D(95vw,295vh,-3px) scale(2);
+    z-index:-3;
+}
+
+#cat6{
+    position: absolute;
+    transform: translate3D(42vw,390vh,0px);
+    z-index:0;
+}
+
+#cat7{
+    position: absolute;
+    transform: translate3D(-38vw,400vh,-4px) scale(2);
+}
+
+#cat8{
+    position: absolute;
+    transform: translate3D(65vw,500vh,-3px) scale(3) ;
+}
+
+#cat9{
+    position:absolute;
+    transform: translate3D(0vw,550vh,-2px) scale(2) ;
+}
+
+#cat10{
+    position:absolute ;
+    transform: translate3D(-0.5vw,650vh,0px) ;
+}
+
+#cat11{
+    position:absolute ;
+    transform: translate3D(60vw,710vh,-4px) scale(7) ;
+}
+
+#cat12{
+    position: absolute ;
+    transform: translate3D(25vw,750vh,-1px) scale(3);
+}
+
+#cat13{
+    position:absolute ;
+    transform: translate3D(25vw,880vh,-3px) scale(5);
+}
+
+#cat14{
+    position: absolute ;
+    transform: translate3D(18vw,990vh,0px) scale(2);
+}
+
+#cat15{
+    position: absolute ;
+    transform: translate3D(80vw,1050vh,-2px) scale(1.5);
+}
+
+#cat16{
+    position: absolute ;
+    transform: translate3D(-40vw,1100vh,-4px) scale(5);
+}
+
+#cat17{
+    position: absolute ;
+    transform: translate3D(65vw,1380vh,-2px) scale(4) ;
+}
+
+#cat18{
+    position: absolute ;
+    transform: translate3D(40vw,1200vh,-3px) scale(2.6) ;
+}
+
+#cat19{
+    position: absolute ;
+    transform: translate3D(-15vw,1400vh,-1px) scale(1.2);
+}
+
+#cat20{
+    position: absolute ;
+    transform: translate3D(22vw,1500vh,1px) ;
+}
+
+#cat21{
+    position: absolute ;
+    transform: translate3D(1vw,1550vh,0px) ;
+}
+
+#cat22{
+    position:absolute ;
+    transform: translate3D(65vw,1575vh,-4px) scale(3.5) ;
+}
+
+#cat23{
+    position: absolute ;
+    transform: translate3D(30vw,1670vh,2px) ;
+}
+
+#cat24{
+    position:absolute ;
+    transform: translate3D(1vw,1720vh,-3px) scale(5);
+}
+
+#cat25{
+    position: absolute ;
+    transform: translate3D(50vw,1795vh,-1px) ;
+}
+
+#cat26{
+    position: absolute ;
+    transform: translate3D(45vw,1915vh,0px) scale(2) ;
+}
+
+#cat27{
+    position: absolute ;
+    transform: translate3D(-10vw,2000vh,-4px) scale(3);
+}
+
+#cat28{
+    position: absolute ;
+    transform: translate3D(75vw,2060vh,-2.5px) scale(2.5);
+}
+
+#cat29{
+    position: absolute ;
+    transform: translate3D(-15vw,2070vh,-1px) ;
+}
+
+#cat30{
+    position: absolute ;
+    transform: translate3D(40vw,2160vh,1px) ;
+}
+
+#cat31{
+    position: absolute ;
+    transform: translate3D(-35vw,2185vh,-2px) scale(2);
+}
+
+#cat32{
+    position: absolute ;
+    transform: translate3D(30vw,2200vh,2px) ;
+}
+
+#cat33{
+    position: absolute ;
+    transform: translate3D(60vw,2400vh,-4px) scale(8);
+}
+
+#cat34{
+    position: absolute ;
+    transform: translate3D(2vw,2550vh,0px) ;
+}
+
+#cat35{
+    position: absolute ;
+    transform: translate3D(-5vw,2260vh,-5px) scale(3);
+}

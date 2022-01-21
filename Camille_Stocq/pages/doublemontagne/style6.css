@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(255,200, 116);
+    color : #a78a63;
+    margin: 0;
+   
+     
+}
+
+h1{
+    width: 500px;
+    margin: auto auto;
+    text-align: center;
+   padding-top: 50px; 
+    border: 5px solid #000;
+    border-color: #89704d;
+    border-style:double;
+    border-spacing: inherit;
+}
+
+.container {
+  position:relative;
+   width: 700px;
+  height: 550px;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  background-image: url(../doublemontagne/Capture%20d%E2%80%99%C3%A9cran%202022-01-16%20%C3%A0%2010.26.00-min.jpg); 
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+.container:hover .overlay {
+  transform: scale(1);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+    
+.container .btn {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #a78a63;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+    
+}

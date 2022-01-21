@@ -1,0 +1,78 @@
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+}
+
+function draw() {
+    background('#64A88E');
+
+    fill('#338351');
+    noStroke();
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+    ellipse(random(windowWidth), random(windowHeight), 65);
+  }

@@ -1,0 +1,132 @@
+ 
+
+
+
+@font-face {
+	src: url("BebasNeue-Regular.ttf");
+	font-family:"Maroc1";
+	font-weight: 600;
+
+
+
+
+}
+
+body{ margin:100px;
+
+
+}
+.zz{
+  background-image: url('banni.jpeg');
+}
+
+
+
+h1{
+	font-family: Maroc1; 
+ 	 margin-top: 50px;
+ 	 margin-bottom: 100px;
+   	text-align: center;
+}
+
+img{
+  position:absolute;
+  left: 0px;
+  top: 10px;
+  z-index: -1;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+
+
+
+
+
+h2{
+
+	font-family: Maroc1; 
+	font-size: 30px;
+	text-align: center;
+  	margin-top: 50px;
+  	margin-bottom: 100px;
+  	 
+   	 
+}
+
+h3{
+  font-family: Maroc1; 
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+   text-align: center;
+
+
+ }
+ h4 {
+ 	font-family: Maroc1; 
+ font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+   text-align: center;x
+
+
+
+ }
+
+ h5{font-family: Maroc1; 
+  margin-top: 50px;
+  margin-bottom: 100px;
+   text-align: center;
+}
+
+.p1-stat{
+
+  position: absolute;
+  left: 50;
+
+
+
+}
+
+.p1-01{
+
+
+
+}
+
+
+
+
+  
+
+
+
+
